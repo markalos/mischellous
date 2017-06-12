@@ -3,3 +3,4 @@ ftp://nnet@bcmi.sjtu.edu.cn:2122/
 
 http://blog.csdn.net/xiajun07061225/article/details/6926108 edge detection canny
 
+abbreviation plus numbers
