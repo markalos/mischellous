@@ -4,3 +4,14 @@ ftp://nnet@bcmi.sjtu.edu.cn:2122/
 http://blog.csdn.net/xiajun07061225/article/details/6926108 edge detection canny
 
 abbreviation plus numbers
+
+from sklearn.cluster import KMeans
+
+
+def Kmeans(data, n_clusters = 2):
+	kmeans = KMeans(n_clusters=n_clusters).fit(data)
+	lables = kmeans.labels_
+	clusters = [[] for _ in range(n_clusters)]
+	for i in range(len(lables)) :
+		clusters[lables[i]].append(data[i])
+	return clusters
