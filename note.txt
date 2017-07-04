@@ -29,3 +29,5 @@ javaime, sublime java import
 
 pywin32, pyinstaller : from python to exe
 http://pyqwt.sourceforge.net/doc5/PyQwt.pdf
+
+https://shrib.com/#elJdYwr_7Yf2PpMFKUk4
