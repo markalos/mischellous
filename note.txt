@@ -32,3 +32,5 @@ pywin32, pyinstaller : from python to exe
 http://pyqwt.sourceforge.net/doc5/PyQwt.pdf
 
 Most labor the greater part of their time for mere subsistence; and the scanty portion of freedom which remains to them so troubles them that they strive by all available means to be rid of it. Oh, the destiny of man!
+
+http://docs.opencv.org/trunk/da/d22/tutorial_py_canny.html
