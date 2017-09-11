@@ -65,3 +65,6 @@ And might o'erwhelm me so!
 
 
 http://developer2.download.nvidia.com/embedded/L4T/r21_Release_v5.0/l4t_quick_start_guide.txt?JJLa2PWSHftDY6jsQyeh6qGs5rloUl6Dec2xD-THpEIQtS2KehHheMDDVYZYNFKcHdCz31oF5WacznjPt0Ewhs9KEpAM4siDOOltmfW6z41k7N6dBC14KYYGQYM9r_nLCinp38_b8x4uVAd0zLDD-Sl4n5ynZQ
+
+paper reading :
+https://zhuanlan.zhihu.com/p/25443968
