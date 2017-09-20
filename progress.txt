@@ -148,13 +148,34 @@ exertion : mental or physical effort
 imperative : of great importance, crucial.
 acquiesce : accepte something reluctantly but without protest
 correspondence : communication by exchanging letters or e-mail; also the letters of e-mails exchanged. I have a pile correspondence on my desk.
+buttress : a structure of stone or brisk built against a wall to strengthen or support it.
+harness : control or make use of (a natural resouce), especially to produce energy.
+devote : give all or most of one's time or resources to (a person or activity)
+abhor : regar with disgust or hatred. He abhorred sexism in every form.
+abhor : to hate a way of behaving or thinking, often because you think it is not moral.
+I abhor all forms of racism
+attendant : occuring with or as a result of.
+proliferation : rapid increase in the number or amount of sth.
+infrigement : the action of breaking the terms of a law, agreement, etc;violation
+scrape : to manage to live with difficulty.
+they had to live apart from all other people and scrape toghter a living in a humiliating and disgusting way, such as sifting through garbage dumps for scrap material
+sift : examine throughtly so as to isolate that which is most important.
+scrap : bits of uneaten food after a meal
 
 
-
-
-
-
-
+—– BEGIN LICENSE —–
+TwitterInc
+200 User License
+EA7E-890007
+1D77F72E 390CDD93 4DCBA022 FAF60790
+61AA12C0 A37081C5 D0316412 4584D136
+94D7F7D4 95BC8C1C 527DA828 560BB037
+D1EDDD8C AE7B379F 50C9D69D B35179EF
+2FE898C4 8E4277A8 555CE714 E1FB0E43
+D5D52613 C3D12E98 BC49967F 7652EED2
+9D2D2E61 67610860 6D338B72 5CF95C69
+E36B85CC 84991F19 7575D828 470A92AB
+—— END LICENSE ——
 
 
 
