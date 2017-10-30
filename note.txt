@@ -9,6 +9,7 @@ http://colah.github.io/posts/2015-09-Visual-Information/
 
 http://www.freesmsverifications.com/phone-number/447509700730 baidu.com, lizhi
 http://www.freesmsverifications.com/phone-number/447937940502 bilibili
+https://www.receive-sms-online.info/read-sms.php?phone=447453807385 zhihu
 https://github.com/andy79923/ciratefi.git
 
 
@@ -68,3 +69,7 @@ http://developer2.download.nvidia.com/embedded/L4T/r21_Release_v5.0/l4t_quick_st
 
 paper reading :
 https://zhuanlan.zhihu.com/p/25443968
+
+
+https://www.mathworks.com/matlabcentral/answers/1828-remove-dc-component-from-eeg-signals
+https://www.nowcoder.com/test/video
