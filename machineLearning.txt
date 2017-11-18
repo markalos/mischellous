@@ -1,0 +1,1 @@
+in a bayesian model the effective number of parameters adapts automatically to the size of the data set.
