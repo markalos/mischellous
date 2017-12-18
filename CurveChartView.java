@@ -1,5 +1,6 @@
 package com.liuwan.curvechart.widget;
 
+import android.annotation.SuppressLint;
 import android.content.Context;
 import android.graphics.Canvas;
 import android.graphics.CornerPathEffect;
@@ -11,6 +12,7 @@ import android.view.View;
 
 import com.liuwan.curvechart.R;
 
+import java.text.NumberFormat;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -19,6 +21,7 @@ import java.util.List;
  *
  */
 
+@SuppressLint("ViewConstructor")
 public class CurveChartView extends View {
 
 
@@ -31,30 +34,36 @@ public class CurveChartView extends View {
     private int yPoint;
     private float yOffset;
     // X,Y轴的单位长度
-    private int xScale;
+    private float xScale;
     private float yScale;
     private float yLabelScale;
+    final float xLabelScale;
     // 画笔
     private Paint paintAxes;
     private Paint paintCoordinate;
     private Paint paintCurve;
 
     private final int winSize;
-    private final int xStep;
     private String [] xLabel;
     private final boolean autoScale;
     private String[] yLabel;
     private static int numOfYLabel = 12;
+    private static int numberOfXLabel = 11;
 
-    public CurveChartView(Context context, int winSize, int xStep, boolean autoScale) {
+    private static NumberFormat nf = NumberFormat.getInstance();
+
+
+    public CurveChartView(Context context, int winSize, boolean autoScale) {
         super(context);
+        nf.setMaximumFractionDigits(4);
         seriesList = new ArrayList<>();
         this.winSize = winSize;
-        this.xStep = xStep;
         this.autoScale = autoScale;
-        xLabel = new String[winSize / xStep];
-        for (int i = 0; i < xLabel.length; ++i) {
-            xLabel[i] = String.valueOf(i);
+        xLabel = new String[numberOfXLabel];
+        xLabelScale = winSize / (float) (numberOfXLabel - 1);
+        for (int i = 0;  i < xLabel.length; ++i) {
+
+            xLabel[i] = String.valueOf( (int)(i * xLabelScale));
         }
         yLabel = new String[numOfYLabel];
     }
@@ -72,6 +81,7 @@ public class CurveChartView extends View {
     @Override
     protected void onDraw(Canvas canvas) {
         super.onDraw(canvas);
+//        Log.d(TAG, "onDraw: canvas ");
         canvas.drawColor(ContextCompat.getColor(getContext(), R.color.color1));
         init();
         drawAxesLine(canvas, paintAxes);
@@ -87,11 +97,11 @@ public class CurveChartView extends View {
      * 初始化数据值和画笔
      */
     public void init() {
-        int marginX = 30;
+        int marginX = 50;
         xPoint = margin + marginX;
         yPoint = this.getHeight() - margin;
-        xScale = (this.getWidth() - 2 * margin - marginX) / (winSize - 1);
-        yLabelScale = (this.getHeight() - 2 * margin) / (winSize - 1);
+        xScale = (this.getWidth() - 2 * margin - marginX) / (float)winSize;
+        yLabelScale = (this.getHeight() - 2 * margin) / numOfYLabel;
 
         paintAxes = new Paint();
         paintAxes.setStyle(Paint.Style.STROKE);
@@ -155,9 +165,9 @@ public class CurveChartView extends View {
 
     private void drawXCoordinate(Canvas canvas, Paint paint) {
         // X轴坐标
-        for (int i = 0; i < xLabel.length; i += xStep) {
+        for (int i = 0; i < xLabel.length; ++i) {
             paint.setTextAlign(Paint.Align.CENTER);
-            int startX = xPoint + i * xScale;
+            int startX = (int) (xPoint + i * xLabelScale * xScale);
             canvas.drawText(xLabel[i], startX, this.getHeight() - margin / 6, paint);
         }
     }
@@ -169,7 +179,7 @@ public class CurveChartView extends View {
         }
 
         // Y轴坐标
-        for (int i = 0; i <= (yLabel.length - 1); i++) {
+        for (int i = 0; i < numOfYLabel; i++) {
             paint.setTextAlign(Paint.Align.LEFT);
             int startY = (int) (yPoint - i * yLabelScale);
             int offsetX;
@@ -221,7 +231,8 @@ public class CurveChartView extends View {
         float start = min - diff;
         yOffset = start;
         for (int i = 0; i < numOfYLabel; ++i, start += diff) {
-            yLabel[i] = String.valueOf(start);
+            yLabel[i] =
+            nf.format(start);
         }
         yScale = (this.getHeight() - 2 * margin) / (numOfYLabel * diff);
     }

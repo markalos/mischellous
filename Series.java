@@ -10,4 +10,6 @@ public interface Series {
     int getPos();
     int getSize();
     int getColorId();
+    void updateData(float [] data);
+    String info();
 }

@@ -1,5 +1,7 @@
 package com.liuwan.curvechart.widget;
 
+import java.util.Arrays;
+
 /**
  * Created by mems on 12/16/2017.
  */
@@ -17,7 +19,7 @@ public class XYSeries implements Series {
         this.winSize = data.length;
         this.cacheSize =  cacheSize;
         this.title = title;
-        this.data = data;
+        this.data = new float[cacheSize];
         this.colorId = colorId;
         currentStopIdx = winSize;
         currentStartIdx = 0;
@@ -28,7 +30,8 @@ public class XYSeries implements Series {
         this(data, colorId, data.length * DEFAULT_CACHE_RATIO, "xy series");
     }
 
-    public void updateData(float signal[]) {
+    @Override
+    public void updateData(final float signal[]) {
         if (null == signal || 0 == signal.length) {
             return ;
         }
@@ -58,6 +61,11 @@ public class XYSeries implements Series {
             ++signalIdx;
         }
         // rendererRef.setLatestIndex(currentStopIdx);
+    }
+
+    @Override
+    public String info() {
+        return Arrays.toString(Arrays.copyOfRange(data, currentStartIdx, currentStopIdx));
     }
 
     @Override
