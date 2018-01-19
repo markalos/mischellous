@@ -79,3 +79,5 @@ https://github.com/jisaacso/DeepHeart
 
 onresume is called only when fragment is newed, while onhiddenchanged is only called in later stage, if
 show and hide method is used to get extra-fragment-creation resouce maximum performance;
+andriod 
+https://stackoverflow.com/questions/29063186/how-to-play-video-in-fragment
