@@ -81,3 +81,4 @@ onresume is called only when fragment is newed, while onhiddenchanged is only ca
 show and hide method is used to get extra-fragment-creation resouce maximum performance;
 andriod 
 https://stackoverflow.com/questions/29063186/how-to-play-video-in-fragment
+https://github.com/blundell/VideoRatioProblemPerDevice/blob/master/src/com/example/videotest/videoview/VideoViewFragment.java
