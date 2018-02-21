@@ -84,3 +84,8 @@ https://github.com/blundell/VideoRatioProblemPerDevice/blob/master/src/com/examp
 https://github.com/aliab/circular-music-progressbar
 
 https://github.com/imflyn/Eyes/blob/master/library/src/main/java/flyn/Eyes.java
+
+
+
+https://web.stanford.edu/class/cs97si/
+
