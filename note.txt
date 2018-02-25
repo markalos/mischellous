@@ -83,3 +83,6 @@ andriod
 https://stackoverflow.com/questions/29063186/how-to-play-video-in-fragment
 https://github.com/blundell/VideoRatioProblemPerDevice/blob/master/src/com/example/videotest/videoview/VideoViewFragment.java
 https://github.com/aliab/circular-music-progressbar
+
+
+http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=70254300
