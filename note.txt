@@ -1,5 +1,4 @@
-http://skemman.is/stream/get/1946/15343/37285/3/SS_MSthesis.pdf
-ftp://nnet@bcmi.sjtu.edu.cn:2122/
+by312312
 
 http://blog.csdn.net/xiajun07061225/article/details/6926108 edge detection canny
 
@@ -90,3 +89,14 @@ https://github.com/alexandrebarachant/pyRiemann
 https://github.com/MultiScale-BCI/IV-2a
 
 https://www.youtube.com/watch?v=L7zSU9HI-6I&app=desktop
+andriod 
+https://stackoverflow.com/questions/29063186/how-to-play-video-in-fragment
+https://github.com/blundell/VideoRatioProblemPerDevice/blob/master/src/com/example/videotest/videoview/VideoViewFragment.java
+https://github.com/aliab/circular-music-progressbar
+
+https://github.com/imflyn/Eyes/blob/master/library/src/main/java/flyn/Eyes.java
+
+
+
+https://web.stanford.edu/class/cs97si/
+
