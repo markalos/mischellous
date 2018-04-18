@@ -79,3 +79,14 @@ https://github.com/jisaacso/DeepHeart
 
 onresume is called only when fragment is newed, while onhiddenchanged is only called in later stage, if
 show and hide method is used to get extra-fragment-creation resouce maximum performance;
+
+https://github.com/NeurotechBerkeley/bci-course
+EEG feature descriptors and discriminant analysis under Riemannian Manifold perspective
+A multi-class EEG-based BCI classification using multivariate empirical mode decomposition based filtering and Riemannian geometry
+http://dblp.uni-trier.de/
+https://link.springer.com/chapter/10.1007%2F978-981-10-0207-6_48
+https://asu.pure.elsevier.com/en/publications/eeg-feature-descriptors-and-discriminant-analysis-under-riemannia
+https://github.com/alexandrebarachant/pyRiemann
+https://github.com/MultiScale-BCI/IV-2a
+
+https://www.youtube.com/watch?v=L7zSU9HI-6I&app=desktop
