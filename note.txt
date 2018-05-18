@@ -99,4 +99,7 @@ https://github.com/imflyn/Eyes/blob/master/library/src/main/java/flyn/Eyes.java
 
 
 https://web.stanford.edu/class/cs97si/
+http://www.diku.dk/~pawel/ad/maxflow25-45.pdf
 
+hall's marriage theorem and bipartite matching problem
+http://theory.stanford.edu/~trevisan/cs261/lecture14.pdf
