@@ -88,3 +88,5 @@ https://github.com/aliab/circular-music-progressbar
 http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=70254300
 
 splunk， vmware， intel,  ebay, paypal,  大小摩， 另外思科，emc， sap， ibm也行
+
+https://blog.csdn.net/titer1/article/details/30459407
